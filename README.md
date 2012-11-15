@@ -1,4 +1,11 @@
-ormia
-=====
+                   _       
+                  (_)      
+  ___   ____ ____  _  ____ 
+ / _ \ / ___)    \| |/ _  |
+| |_| | |   | | | | ( ( | |
+ \___/|_|   |_|_|_|_|\_||_|
 
-Object-Relational Mapping Framework....inspired by pureQuery
+-----------------------------------------------------------
+ ORMia = O/R mapping framework inspired by IBM's pureQuery
+-----------------------------------------------------------
+

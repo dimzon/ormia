@@ -28,5 +28,12 @@ ORMia goals:
         Person p = ORMia.getData(MyDAO.class).getPersonById("1234");
       }
     }
-
 As you can see all you need is to write an interface that declares a method with appropriate annotation which holds a SQL, that's it!
+
+
+###### TODO
+- build core engine based on DynamicProxy implementation
+- add support for: @Select, @Update, @Call
+- add suport for cursors (positioned update, hold cursors over commit): @Cursor
+- add support for command line object generation from relational table (like TABLE PERSON -> Person.java & PersonData.java)
+- add caching support for querying data (ability to clear cache, use global cache,..)

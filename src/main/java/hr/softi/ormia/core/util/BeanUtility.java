@@ -87,7 +87,15 @@ public class BeanUtility {
         T instance = null;
         if(klazz!=null){
             try {
-                instance = klazz.newInstance();
+                if(klazz.isMemberClass()){
+                    if(!Modifier.isStatic(klazz.getModifiers())){
+                        instance = klazz.getDeclaredConstructor(new Class[]{ klazz.getEnclosingClass()}).newInstance(klazz.getEnclosingClass().newInstance());
+                    }else{
+                        instance = klazz.getDeclaredConstructor(new Class[] {}).newInstance(new Object[] {});
+                    }
+                }else{
+                    instance = klazz.newInstance();
+                }
             }catch (Exception e){
                 throw new OrmiaException("Unable to instantiate class " + klazz.getName() + " - " + e.getMessage(), e, "O-BU-001");
             }

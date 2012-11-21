@@ -1,6 +1,7 @@
 package hr.softi.ormia.core;
 
 import hr.softi.ormia.core.annotation.Select;
+import hr.softi.ormia.core.annotation.Update;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -21,6 +22,13 @@ public class OrmiaProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        if(method.getAnnotation(Update.class)!=null){
+            Object retUpdate = processUpdate(proxy,method,args);
+            if(method.getAnnotation(Select.class)!=null){
+                //We're allowing this construct @Update @Select
+                return processSelect(proxy,method,args);
+            }
+        }
         if(method.getAnnotation(Select.class)!=null){
             return processSelect(proxy,method,args);
         }

@@ -17,4 +17,8 @@ public class OrmiaEngine {
                 ormiaProxy);
         return (T)proxy;
     }
+
+    public String getName(){
+        return "";
+    }
 }

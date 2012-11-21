@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d9bc29-2eed-4d29-804a-cf5ed04ea772" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_h2database_h2_1_3_168.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ormia.iml" afterPath="$PROJECT_DIR$/ormia.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java" afterPath="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ormia.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353417682328" ignored="false" />
-    <file path="/OrmiaException.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353072434656" ignored="false" />
-    <file path="/pom.xml" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353071451403" ignored="false" />
-    <file path="/OrmiaEngine.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353395341445" ignored="false" />
-    <file path="/Select.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353396185568" ignored="false" />
-    <file path="/Update.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353396260846" ignored="false" />
-    <file path="/OrmiaProxy.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353400494031" ignored="false" />
-    <file path="/BeanUtility.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404471196" ignored="false" />
-    <file path="/fragment.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404698460" ignored="false" />
-    <file path="/settings.xml" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404930364" ignored="false" />
+    <file path="/Dummy.txt" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353488293845" ignored="false" />
+    <file path="/OrmiaEngine.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353488259458" ignored="false" />
+    <file path="/pom.xml" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353486657069" ignored="false" />
+    <file path="/OrmiaProxy.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353482531385" ignored="false" />
     <file path="/BeanUtilityTest.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353405036330" ignored="false" />
+    <file path="/settings.xml" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404930364" ignored="false" />
+    <file path="/fragment.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404698460" ignored="false" />
+    <file path="/BeanUtility.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353404471196" ignored="false" />
+    <file path="/Update.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353396260846" ignored="false" />
+    <file path="/Select.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353396185568" ignored="false" />
+    <file path="/OrmiaException.java" changelist="99d9bc29-2eed-4d29-804a-cf5ed04ea772" time="1353072434656" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,10 +79,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BeanUtilityTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BeanUtilityTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hr/softi/ormia/core/util/BeanUtilityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="93" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.42418772">
+            <state line="19" column="57" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,19 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrmiaEngine.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="OrmiaEngine.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="21" column="18" selection-start="561" selection-end="561" vertical-scroll-proportion="0.64440435">
               <folding />
             </state>
           </provider>
@@ -119,25 +102,7 @@
       <file leaf-file-name="OrmiaProxy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="96" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cache.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Cache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Call.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Call.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="34" column="26" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,20 +124,27 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="ormia" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/exception/OrmiaException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Select.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Update.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Call.java" />
         <option value="$PROJECT_DIR$/src/test/java/hr/softi/ormia/core/OrmiaProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/util/BeanUtility.java" />
         <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/src/test/java/hr/softi/ormia/core/util/BeanUtilityTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaProxy.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java" />
       </list>
     </option>
   </component>
@@ -183,10 +155,42 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ormia" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ormia" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="228" />
-    <option name="y" value="49" />
-    <option name="width" value="1274" />
+    <option name="x" value="290" />
+    <option name="y" value="76" />
+    <option name="width" value="1317" />
     <option name="height" value="1022" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -197,55 +201,13 @@
             <id />
           </State>
           <State>
-            <id>Abstraction issues</id>
+            <id>Performance issues</id>
           </State>
           <State>
-            <id>Android Lint</id>
+            <id>Portability issues</id>
           </State>
           <State>
-            <id>Assignment issues</id>
-          </State>
-          <State>
-            <id>Assignment issuesGroovy</id>
-          </State>
-          <State>
-            <id>Class structure</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>J2ME issues</id>
-          </State>
-          <State>
-            <id>JUnit issues</id>
-          </State>
-          <State>
-            <id>Logging issues</id>
-          </State>
-          <State>
-            <id>Packaging issues</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugs</id>
-          </State>
-          <State>
-            <id>TestNG</id>
-          </State>
-          <State>
-            <id>Threading issues</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
+            <id>Resource management issues</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -277,6 +239,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,222 +258,37 @@
               <option name="myItemId" value="ormia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="annotation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scopes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ormia" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="Repository.Attach.Sources" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="C:\Users\stipe\IdeaProjects\ormia\lib" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/hr/softi/ormia/core" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.updates" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -560,25 +338,33 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -606,6 +392,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -683,7 +482,7 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="99d9bc29-2eed-4d29-804a-cf5ed04ea772" name="Default" comment="" />
       <created>1353071389640</created>
-      <timeSpent>110352000</timeSpent>
+      <timeSpent>116347000</timeSpent>
       <updated>1353071389640</updated>
     </task>
     <task id="LOCAL-00001" summary="init">
@@ -710,8 +509,12 @@
       <created>1353417687707</created>
       <updated>1353417687707</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
-    <option name="myTotallyTimeSpent" value="110352000" />
+    <task id="LOCAL-00007" summary="processUpdate">
+      <created>1353482566070</created>
+      <updated>1353482566070</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <option name="myTotallyTimeSpent" value="116347000" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -735,24 +538,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="228" y="49" width="1274" height="1022" extended-state="0" />
+    <frame x="290" y="76" width="1317" height="1022" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947975" sideWeight="0.49669966" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947975" sideWeight="0.4868526" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.67052025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.554295" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947975" sideWeight="0.49752474" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947975" sideWeight="0.50756973" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.49721116" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.4932271" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988048" sideWeight="0.67052025" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2590759" sideWeight="0.67052025" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27630058" sideWeight="0.49339935" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2501992" sideWeight="0.67052025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27630058" sideWeight="0.49003986" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -796,7 +599,7 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="first tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -812,6 +615,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="added annotation declaration" />
     <MESSAGE value="first tests" />
+    <MESSAGE value="processUpdate" />
+    <MESSAGE value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -854,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/h2-1.3.168.jar!/org/h2/tools/Csv.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="45" column="30" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.34332085" />
@@ -869,13 +667,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="0" selection-start="2875" selection-end="2875" vertical-scroll-proportion="0.3319239" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="96" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.2/junit-4.8.2-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
@@ -894,7 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="0" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.3326087">
           <folding>
-            <element signature="e#1100#1116#0" expanded="true" />
+            <element signature="e#1100#1116#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -902,13 +693,6 @@
     <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="4" selection-start="278" selection-end="278" vertical-scroll-proportion="0.11744387" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="473" selection-end="473" vertical-scroll-proportion="0.31166667">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/annotation/Call.java">
@@ -920,10 +704,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hr/softi/ormia/core/util/BeanUtilityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="93" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.42418772">
+        <state line="19" column="57" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="8" selection-start="584" selection-end="584" vertical-scroll-proportion="0.43441227">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="26" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hr/softi/ormia/core/OrmiaEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="18" selection-start="561" selection-end="561" vertical-scroll-proportion="0.64440435">
+          <folding />
         </state>
       </provider>
     </entry>

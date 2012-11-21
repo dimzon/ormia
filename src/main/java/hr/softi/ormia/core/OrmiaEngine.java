@@ -1,5 +1,7 @@
 package hr.softi.ormia.core;
 
+import java.sql.Connection;
+
 /**
  * Created with IntelliJ IDEA.
  * User: stipe
@@ -8,9 +10,14 @@ package hr.softi.ormia.core;
  * To change this template use File | Settings | File Templates.
  */
 public class OrmiaEngine {
+    private Connection connection;
 
-    public static <T> T getData(Class<T> iface) {
-        OrmiaProxy ormiaProxy = new OrmiaProxy();
+    public OrmiaEngine(Connection connection){
+        this.connection = connection;
+    }
+
+    public <T> T getData(Class<T> iface) {
+        OrmiaProxy ormiaProxy = new OrmiaProxy(connection);
         Object proxy = java.lang.reflect.Proxy.newProxyInstance(
                 iface.getClassLoader(),
                 new Class[] {iface},

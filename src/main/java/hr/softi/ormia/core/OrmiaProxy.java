@@ -7,7 +7,8 @@ import hr.softi.ormia.lang.OrmiaLang;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.sql.Connection;
+import java.math.BigDecimal;
+import java.sql.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -63,6 +64,76 @@ public class OrmiaProxy extends OrmiaLang implements InvocationHandler {
 
     private Object processUpdate(Object proxy, Method method, Object[] args) throws Throwable{
         return null;
+    }
+
+//    @Override
+//    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+//        System.out.println("--proxied");
+//
+//        Select selectAnon = method.getAnnotation(Select.class);
+//        String sql = selectAnon.sql();
+//        System.out.println("Executing SQL = " + sql);
+//
+//        PreparedStatement statement = getConnection().prepareStatement(sql);
+//        ParameterMetaData paramsMeta = statement.getParameterMetaData();
+//        for(int i=1; i<=paramsMeta.getParameterCount(); i++){
+//            setPreparedStatementField(statement, i, args[i-1]);
+//        }
+//
+//        ResultSet result = statement.executeQuery();
+//        result.next();
+//        Object outputBean = method.getReturnType().newInstance();
+//        BeanUtilities.populate(outputBean, result);
+//        return outputBean;
+//    }
+
+    private static Connection getConnection(String driverClass, String url, String user, String password) {
+        try {
+            Class.forName (driverClass).newInstance ();
+        } catch (Exception e) {
+            throw new RuntimeException ("Unable to load the driver. Message " + e.getMessage ());
+        }
+
+        java.util.Properties connectionProperties = new java.util.Properties();
+        connectionProperties.put("user", user);
+        connectionProperties.put("password", password);
+
+        try {
+            Connection connection = DriverManager.getConnection(url,connectionProperties);
+            return connection;
+        } catch (SQLException e) {
+            throw new OrmiaException("Unable to obtain a connection. SqlCode " + e.getErrorCode() + " Message " + e.getMessage(), "O-OP-002");
+        }
+    }
+
+    private static void setPreparedStatementField(PreparedStatement pStmt, int count, Object arg) throws SQLException {
+        if (arg instanceof String) {
+            pStmt.setString(count, (String) arg);
+        } else if (arg instanceof BigDecimal) {
+            pStmt.setBigDecimal(count, (BigDecimal) arg);
+        } else if (arg instanceof java.sql.Date) {
+            pStmt.setDate(count, (java.sql.Date) arg);
+        } else if (arg instanceof java.lang.Long) {
+            pStmt.setLong(count, ((java.lang.Long) arg).longValue());
+        } else if (arg instanceof java.lang.Integer) {
+            pStmt.setInt(count, ((java.lang.Integer) arg).intValue());
+        } else if (arg instanceof Float)
+            pStmt.setFloat(count, ((Float) arg).floatValue());
+        else if (arg instanceof Double)
+            pStmt.setDouble(count, ((Double) arg).doubleValue());
+        else if (arg instanceof byte[])
+            pStmt.setBytes(count, (byte[]) arg);
+        else if (arg instanceof Short)
+            pStmt.setShort(count, ((Short) arg).shortValue());
+        else if (arg instanceof Timestamp)
+            pStmt.setTimestamp(count, ((Timestamp) arg));
+        else if (arg instanceof java.sql.Time) {
+            pStmt.setTime(count, (java.sql.Time) arg);
+        } else if (arg == null) {
+            pStmt.setNull(count, Types.DECIMAL);
+        } else {
+            pStmt.setObject(count, arg);
+        }
     }
 
 }

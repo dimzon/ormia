@@ -14,7 +14,6 @@ ORMia goals:
 - allow reuse
 - automatic object <-> relational translation
 
-
 ##### Usage
     // MyDAO.java
     public interface MyDAO {
